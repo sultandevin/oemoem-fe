@@ -1,0 +1,29 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #454545;
+  line-height: 24px;
+}
+
+body {
+  padding-inline: 200px;
+  margin-top: 75px;
+}
+
+a {
+  color: violet;
+}
+
+button {
+  font-weight: bold;
+}
+
+.orange-box {
+  background-color: orange;
+  color: white;
+  padding: 12px;
+}

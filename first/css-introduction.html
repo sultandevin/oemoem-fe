@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css intro</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        .text-berwarna {
+            color: orange;
+        }
+
+        #judul {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <p style="
+        background: red;
+        color: white;
+        width: 300px;
+        padding: 12px;
+    ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo distinctio dignissimos laudantium ab iure, pariatur obcaecati optio nisi repellat eius laboriosam voluptate ex vitae voluptatibus incidunt sapiente nobis voluptatem tempora.</p>
+
+    <!-- Style tag CSS -->
+    <p class="text-berwarna">text ini berwarna orange</p>
+    <p class="text-berwarna">text ini juga</p>
+    <h1 id="judul">judul</h1>
+
+    <!-- External CSS -->
+    <p class="font-baru">ini font baru</p>
+</body>
+</html>

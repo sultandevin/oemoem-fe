@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intermediate css</title>
+    <style>
+        .container {
+            height: 600px;
+            border: 10px solid black;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            /* gap: 5px; */
+            /* space-around, space-evenly, space-between, center, flex-end, flex-start */
+        }
+        .item {
+            background-color: pink;
+            outline: 5px solid red;
+            width: 200px;
+            height: 200px;
+        }
+        .grow {
+            flex-grow: 1;
+        }
+        .shrink {
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>
