@@ -10,7 +10,9 @@
 }
 
 body {
-  padding-inline: 200px;
+  background-color: #EEEEEE;
+  margin-inline: auto;
+  max-width: 75%;
   margin-top: 75px;
 }
 
